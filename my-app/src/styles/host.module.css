@@ -1,0 +1,58 @@
+.Input{
+    width: calc(100%-30px);
+    margin: 0px 15px 15px;
+    border-radius: 20px;
+    height: calc(100%);
+    background-color: #1e1e1e;
+    outline: none;
+    border: none;
+    padding: 15px;
+    resize: none;
+    color: white;
+}
+.BTNNext{
+   
+    border: none; 
+    color: rgb(0, 0, 0);
+    cursor: pointer;
+    border-radius: 15px;
+    font-weight: 600;
+    margin: 10px; /* Верхнее и нижнее отступы 0px, правый и левый отступы 10px, нижний отступ 5px */
+    width: 500px;
+    padding: 10px;
+    font-size: 16pt;
+    background-color: white;
+    background-size: 600% 600%;
+
+    -webkit-animation: AnimationName 30s ease infinite;
+    -moz-animation: AnimationName 30s ease infinite;
+    animation: AnimationName 30s ease infinite;
+    transition: background-color 0.31s;
+}
+
+.BTNNext:hover {
+    background-color: rgb(156, 156, 156);
+    transition: background-color 1s;
+   }
+   .Hdr{
+    background-color: rgb(43, 43, 43);
+    display:flex;
+    justify-content: center;
+    align-items: center;
+      
+}
+.Tree{
+    background-image: url("./tree.png");
+background-position: center; /* Горизонтальное выравнивание по центру */
+background-size: cover;
+    display: flex;
+    align-items: start;
+    justify-content: center;
+        /* background-size: cover;  */
+    background-repeat: no-repeat;
+    width: calc(100% - 400px);
+    /* opacity: 0.7; Задайте значение прозрачности (от 0 до 1, где 0 - полностью прозрачный, а 1 - полностью непрозрачный) */
+
+    height: calc(100% -400);
+    
+}

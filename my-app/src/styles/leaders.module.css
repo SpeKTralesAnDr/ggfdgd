@@ -1,0 +1,6 @@
+.line {
+    margin-bottom: 10px;
+    color: white;
+
+    background-image: linear-gradient(to right, rgb(255, 0, 0), rgb(242, 255, 0));
+}

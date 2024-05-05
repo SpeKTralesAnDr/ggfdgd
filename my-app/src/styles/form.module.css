@@ -1,0 +1,41 @@
+.formcontainer{
+  height: 100%;
+    width: calc(100%);
+}
+.btn{
+  background-color: #dabfbf;
+  width: calc(100% - 20px);
+  margin: 10px;
+  color: white;
+  /* height: 100%; */
+  padding: 15px;
+  cursor: pointer;
+  border-radius: 10px;
+  outline: none;
+  font-size: 14pt;
+  border: none;
+  transition: background-color 0.3s ease;
+  
+}
+.inpt{
+background-color: #292929;
+width: calc(100% - 50px);
+transition: background-color 0.3s ease;
+margin: 10px;
+color: white;
+height: 100%;
+padding: 15px;
+border-radius: 10px;
+outline: none;
+font-size: 14pt;
+border: none;
+
+}
+.btn:hover {
+    background-color: #555; 
+}
+.inpt:hover,
+.inpt:active,
+.inpt:focus {
+  background-color: #555; 
+}
